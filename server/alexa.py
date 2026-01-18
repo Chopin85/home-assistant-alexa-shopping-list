@@ -16,7 +16,7 @@ WAIT_TIMEOUT=30
 
 class AlexaShoppingList:
 
-    def __init__(self, amazon_url: str = "amazon.co.uk", cookies_path: str = ""):
+    def __init__(self, amazon_url: str = "amazon.fr", cookies_path: str = ""):
         self.amazon_url = amazon_url
         self.cookies_path = cookies_path
         self._setup_driver()
